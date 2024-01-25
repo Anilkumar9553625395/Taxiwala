@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.C{
+    width: 400px;
+    height: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-size: 6rem;
+
+}
+h1{
+    font-size: 6rem;
+}
+.Label{
+    font-size: 2rem;
+    margin: 10px;
+}
