@@ -1,25 +1,74 @@
-body{
+.todolist{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
     text-align: center;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    
+  
 }
 
-
-.C{
-    width: 400px;
-    height: 400px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-    font-size: 6rem;
-
-}
 h1{
-    font-size: 6rem;
+    font-size: 4rem;
 }
-.Label{
-    font-size: 2rem;
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+    margin: 5px;
+    
+}
+.addbutton{
+    background-color: hsl(120, 51%, 47%)
+
+}
+
+.addbutton:hover{
+    background-color: hsl(120, 51%, 37%)
+
+} 
+
+.deletebutton{
+    background-color: hsl(0, 61%, 48%)
+}
+.deletebutton:hover{
+    background-color: hsl(0, 61%, 28%) ;
+}
+
+.movebutton{
+    background-color: hsl(284, 39%, 61%)
+}
+
+.movebutton:hover{
+    background-color: hsl(284, 39%, 51%)
+}
+.textbox{
+    font-size: 1.6rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
     margin: 10px;
 }
+ol{
+    padding: 0;
+  
+}
+
+li{
+    font-size: 2rem;
+    margin: 15px;
+    font-weight: bold;
+    border: 3px solid rgb(184, 45, 45);
+    padding:5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex:1;
+
+}
+

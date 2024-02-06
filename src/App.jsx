@@ -1,5 +1,5 @@
 import React from "react";
-import Colorpicker from "./Colorpicker";
+import Todolist from "./Todolist";
 
 function App(){
 
@@ -7,7 +7,7 @@ function App(){
 
 return(
     <>
-    <Colorpicker/>
+    <Todolist/>
     </>
   
 );
