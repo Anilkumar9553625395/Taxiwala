@@ -11,10 +11,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2.3.2
       - name: Install Dependencies
-        run: npm install 
-        run: npm install express
-        run: npm install cors
-        run: npm install mysql  
+        run: npm install   
       - name: Build
         env:
           CI: false        
