@@ -1,74 +1,54 @@
-.todolist{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 100px;
-    text-align: center;
-    
-  
-}
-
-h1{
-    font-size: 4rem;
-}
-button{
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: white;
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5 ease;
-    margin: 5px;
-    
-}
-.addbutton{
-    background-color: hsl(120, 51%, 47%)
-
-}
-
-.addbutton:hover{
-    background-color: hsl(120, 51%, 37%)
-
-} 
-
-.deletebutton{
-    background-color: hsl(0, 61%, 48%)
-}
-.deletebutton:hover{
-    background-color: hsl(0, 61%, 28%) ;
-}
-
-.movebutton{
-    background-color: hsl(284, 39%, 61%)
-}
-
-.movebutton:hover{
-    background-color: hsl(284, 39%, 51%)
-}
-.textbox{
-    font-size: 1.6rem;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
+.fields{
+    widt
+    font-size: 10px;
     margin: 10px;
-}
-ol{
-    padding: 0;
-  
-}
-
-li{
-    font-size: 2rem;
-    margin: 15px;
     font-weight: bold;
-    border: 3px solid rgb(184, 45, 45);
-    padding:5px;
+ 
+    padding:3px;
     border-radius: 5px;
-    display: flex;
+     display:flex;
+     
     align-items: center;
+    
 }
-.text{
-    flex:1;
+
+.data{
+     border-radius: 5px;
+     border: 3px solid rgb(184, 45, 45);
 
 }
 
+.driver1{
+     font-weight: bold;
+
+}
+.driver2{
+     border: 3px solid rgb(184, 45, 45);
+
+}
+.driver3{
+    padding:3px;
+}
+.pdata{
+
+     padding:3px;
+
+}
+
+.container {
+  display: flex; /* This establishes a flex container */
+}
+
+.box1, .box2 {
+  /* Flex items */
+  flex: 1; /* This allows the boxes to grow and shrink as needed */
+  /* Optionally, you can set other properties like width, height, padding, etc. */
+}
+
+.box1 {
+  /* Additional styles for box 1 */
+}
+
+.box2 {
+  /* Additional styles for box 2 */
+}
