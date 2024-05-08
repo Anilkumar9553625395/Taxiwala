@@ -42,7 +42,7 @@ function App() {
           dropTime: dropTime
         };
         // Send POST request to backend server for passenger
-        await axios.post('https://18.216.72.25:3001/passenger', passengerData);
+        await axios.post('http://18.216.72.25:3001/passenger', passengerData);
       } else {
         // Create form data object for driver
         const driverData = {
@@ -50,7 +50,7 @@ function App() {
           phoneNumber: driverPhoneNumber // Include driver's phone number
         };
         // Send POST request to backend server for driver
-        await axios.post('https://18.216.72.25:3001/driver', driverData);
+        await axios.post('http://18.216.72.25:3001/driver', driverData);
       }
 
       // Reset form fields after submission
@@ -76,7 +76,7 @@ function App() {
       if (mode === 'Driver') {
         try {
           console.log(`Inside fetch Passenger-fetching ${currentLocation}`);
-          const response = await axios.get(`https://18.216.72.25:3001/passenger-details?currentLocation=${currentLocation}`);
+          const response = await axios.get(`http://18.216.72.25:3001/passenger-details?currentLocation=${currentLocation}`);
           console.log(`Passengerlist-${response.data}`);
           setPassengerList(response.data); // Update passenger list state with fetched data
         } catch (error) {
